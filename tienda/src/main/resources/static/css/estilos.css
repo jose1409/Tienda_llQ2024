@@ -1,0 +1,9 @@
+#PrimerParrafo {
+    text-align: center;
+    color: purple;
+}
+h1, h2, h3 {
+    color:darkviolet;
+}
+
+/* Siempre leera de arriba hacia abajo*/
