@@ -60,4 +60,9 @@ public class ProductoServiceImpl implements ProductoService {
     public List<Producto> metodoNativo(double precioInf, double precioSup) {
         return productoDao.metodoNativo(precioInf, precioSup);
     }
+
+    @Override
+    public List<Producto> metodoNativo2(int existenciasInf, int existenciasSup) {
+        return productoDao.metodoNativo2(existenciasInf, existenciasSup);
+    }
 }
